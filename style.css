@@ -1,7 +1,7 @@
 /* Universal Selector */
 * {
-  margin:0;
-  padding:0;  
+  margin:10px;
+  padding: 2px;;  
 }
 
 /* Element Selectors */
@@ -15,7 +15,7 @@ body {
 
 h1,
 h2 {
-  margin: 20px;
+  margin: 30px;
 }
 
 main {
@@ -24,7 +24,7 @@ main {
 
 li {
   display: inline;
-  padding: 0px 20px;
+  padding: 5px 20px;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ figure {
 
 img {
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 section {
@@ -75,20 +75,21 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid #DDAF94;
+  border: 10px solid #DDAF94;
   border-radius: 20px;
 }
 
 label {
   display: inline-block;
-  width: 100px;
+  width: 100px
+  px;
 }
   
 input, 
 textarea {
   box-sizing: border-box;
   width: 300px;
-  border: 1px solid #4F4846;
+  border: 5px solid #4F4846;
 }
 
 textarea {
@@ -98,7 +99,7 @@ textarea {
   
 button {
   height: 40px;
-  width: 120px;
+  width: 180px;
   background-color: #4F4846;
   color: #FDF8F5;
 }
